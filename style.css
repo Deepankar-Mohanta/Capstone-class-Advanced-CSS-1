@@ -1,0 +1,76 @@
+h1 {
+    color: white;
+    margin-left:650px;
+}
+
+
+/*.header *{
+    border: solid;
+} 
+*/
+
+.header{
+
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Project{
+    margin-right:100px;
+    margin-top:28px;
+}
+.About{
+    margin-right :100px;
+    margin-top:28px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.item{
+   position:relative;
+}
+.item p{
+    position:absolute;
+    top:20px;
+    left:100px;
+    transform:translate(0%,0%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.5;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link {
+    color:cyan ;
+}
+a:visited{
+    color:white;
+}
